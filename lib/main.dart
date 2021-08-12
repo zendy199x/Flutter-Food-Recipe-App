@@ -15,7 +15,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Recipe App",
       theme: ThemeData(
-        backgroundColor: Colors.white,
+        // backgroundColor: Colors.white,
+        scaffoldBackgroundColor: Colors.white,
         appBarTheme: const AppBarTheme(
           color: Colors.white,
           elevation: 0,
