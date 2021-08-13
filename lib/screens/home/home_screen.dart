@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:food_recipe/components/my_bottom_nav_bar.dart';
 import 'package:food_recipe/screens/home/components/body.dart';
 import 'package:food_recipe/size_config.dart';
 
@@ -13,6 +14,9 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: buildAppBar(),
       body: const Body(),
+      // I'm not able to BottomNavigatoonBar because the icon parameter don't expect SVG
+      // I'm also use Provider to manage the state of our Nav
+      bottomNavigationBar: const MyBottomNavBar(),
     );
   }
 
