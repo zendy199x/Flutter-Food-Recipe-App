@@ -17,7 +17,7 @@ class MyBottomNavBar extends StatelessWidget {
     return Consumer<NavItems>(
       builder: (context, navItems, child) => Container(
         padding: EdgeInsets.symmetric(horizontal: defaultSize * 3),
-        // height: 80,
+        height: 90,
         decoration: BoxDecoration(
           color: Colors.white,
           boxShadow: [
